@@ -43,6 +43,8 @@ def email_merge_view(request):
                     html_message=html_message
                 )
                 success_count += 1
+
+                
                 
             messages.success(request, f"অভিনন্দন! মোট {success_count} টি মেইল সফলভাবে পাঠানো হয়েছে।")
             
